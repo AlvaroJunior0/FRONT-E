@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'idroid.otf';
-    src: url(../desafio/fontes/idroid.otf);
+    src: url(../fontes/idroid.otf) format ('opentype');
+    font-weight: normal;
 }
 
 body{
