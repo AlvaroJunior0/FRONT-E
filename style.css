@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(../FRONT-END/desafio/fontes/idroid.otf);
+}
+
+body{
+    background-color: rgb(138, 223, 138);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.452);
+}
+
+main img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background-image:repeating-linear-gradient(to bottom,green,rgb(85, 85, 85));
+    font-family: 'idroid';
+    color: white;
+    min-height: 150px;
+    padding: 40px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534); 
+}
+
+header p{
+    text-align: center; 
+    max-width: 600px;
+    margin: auto    ;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.534);
+}
+
+h1{
+    font-family: 'idroid';
+    font-size: normal;
+    color: green;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h2{
+    font-family: 'idroid';
+    font-size: normal;
+    color: green;
+    text-align: justify;
+    background-image: linear-gradient(to right, rgba(90, 255, 90, 0.562),transparent);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+    background-color:rgb(85, 85, 85);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+nav >a:hover{
+    color: rgba(0, 0, 0, 0.644);
+    background-color: rgba(124, 250, 141, 0.829);
+    border-radius: 10px;
+    transition-duration: 0.3s
+}
+
+main img.pequena{
+    max-width: 300px;
+}
+
+div.video{
+    background-color: rgb(32, 214, 32);
+    margin: 30px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
